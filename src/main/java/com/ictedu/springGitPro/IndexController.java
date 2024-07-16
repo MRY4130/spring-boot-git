@@ -2,7 +2,7 @@ package com.ictedu.springGitPro;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
-public class indexController {
+public class IndexController {
 	
 	@GetMapping("/")
 	public String index() {
